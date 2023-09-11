@@ -1,0 +1,27 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+.card {
+    color: white;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(80, 78, 78, 0.5);
+    position: relative;
+    width:300px;
+    height:330px;
+    background: linear-gradient(45deg , rgb(255, 106, 0), red , rgb(136, 0, 255),blue);
+    margin:20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: width 1s ,height 1s;
+}
+.flex{
+    display:inline-flex;
+    
+}
+.card:hover {
+    width: 310px;
+    height: 340px;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: rotate(-2deg);
+}
